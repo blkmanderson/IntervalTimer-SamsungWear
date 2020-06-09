@@ -1,0 +1,13 @@
+<resources>
+	<application name="org.example.intervalTimer">
+		<serviceProfile id="/intervaltimer/messages" name="MessageConsumer"
+			role="consumer" version="1.0">
+			<supportedTransports>
+				<transport type="TRANSPORT_BT" />
+			</supportedTransports>
+			<supportedFeatures>
+				<feature type="message" />
+			</supportedFeatures>
+		</serviceProfile>
+	</application>
+</resources>

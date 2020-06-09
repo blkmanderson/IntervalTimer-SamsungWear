@@ -1,0 +1,5 @@
+set sysroot /Users/bmanderson/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/wearable/rootstraps/wearable-4.0-device.core
+set debug-file-directory /Users/bmanderson/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/wearable/rootstraps/wearable-4.0-device.core/usr/lib/debug
+set solib-search-path /Users/bmanderson/tizen-workspace/IntervalTimer/Debug
+dir /Users/bmanderson/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/wearable/rootstraps/wearable-4.0-device.core/usr/src/debug
+sharedlibrary

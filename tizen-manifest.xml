@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0" package="org.example.intervaltimer" version="1.0.0">
+    <author>Blake Anderson</author>
+    <profile name="wearable"/>
+    <ui-application appid="org.example.intervaltimer" exec="intervaltimer" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>intervaltimer</label>
+        <icon>logoldpi.png</icon>
+        <metadata key="accessory-services-location" value="/res/xml/accessoryservices.xml"/>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/haptic</privilege>
+        <privilege>http://developer.samsung.com/tizen/privilege/accessoryprotocol</privilege>
+        <privilege>http://tizen.org/privilege/power</privilege>
+    </privileges>
+</manifest>
